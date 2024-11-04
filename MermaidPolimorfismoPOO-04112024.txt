@@ -1,0 +1,15 @@
+classDiagram
+    class Animal {
+        +fazerSom()
+    }
+    
+    class Cachorro {
+        +fazerSom()
+    }
+    
+    class Gato {
+        +fazerSom()
+    }
+    
+    Animal <|-- Cachorro
+    Animal <|-- Gato
